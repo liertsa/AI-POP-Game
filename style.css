@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+
+body{
+    background-color: #000;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.play-board .details{
+    background-color: #700B97;
+    padding: 63px;
+    border-radius: 10px;
+    margin: 4px;
+    height: 15px;
+}
+
+.play-board .details .players{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.play-board section{
+    display: flex;
+}
+.play-board .details span{
+    background-color: #ffff;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.play-board .play-area{
+    margin-top: 20px;
+}
+.play-board section span{
+    display: block;
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+    background-color: #700B97;
+    border-radius: 10px;
+}
+
